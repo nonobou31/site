@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap);
+html {
+    font-family:Poppins;
+}
+body {
+    margin:0;
+    padding:0;
+}
+/* Barre de navigation */
+nav {
+    background-color: rgb(253, 113, 146);
+    display: block;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    padding: 20px;
+    font-size:20px;
+  }
+nav a:hover {
+    color: #000;
+  }
+  img {
+      float:left;
+      height:30px;
+      width:30px;
+      border-radius:50%;
+  }
+/* Classes Pratiques */
+.center {
+    text-align:center;
+}
+.right {
+    text-align:right;
+}
+.left {
+    text-align:left;
+}
+
+.globalTitle {
+    text-decoration:none;
+    font-size:75px;
+    text-align:center;
+}
+.globalDescription {
+    text-align:center;
+    font-size:20px;
+}
